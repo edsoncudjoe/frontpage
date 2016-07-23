@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Edson Cudjoe | FBA Hunt
+{% endblock %}
+
+{% block navmenu %}
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                  <ul class="nav navbar-nav navbar-right">
+	                    <li><a href="{{ url_for('main.index') }}">Home</a></li>
+	                    <li><a href="{{ url_for('main.index') }}#SERVICE">Services</a></li>
+	                    <li><a href="{{ url_for('main.index') }}#ABOUT">About</a></li>
+	                    <!--<li><a href="#TESTIMONIAL">Testimonial</a></li>-->
+	                    <li><a href="{{ url_for('main.index') }}#WORK">Work</a></li>
+	                    <li><a href="{{ url_for('main.index') }}#CONTACT">Contact</a></li>
+	                  </ul>
+	                </div><!-- /.navbar-collapse -->
+
+{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+<div class="clearfix"></div>
+
+<div class="work_title">
+    <div class="container">
+
+        <div class="title"><h1>FBA Hunt</h1></div>
+
+        <div class="pagenation">&nbsp;<a href="index.html">Home</a> <i>/</i> <a href="#">Work</a> <i>/</i> FBA Hunt</div>
+
+    </div>
+</div><!-- end page title -->
+
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+<section class="project-main-details">
+<div class="container">
+
+    <div class="content_fullwidth lessmar">
+
+        <div class="portfolio_area">
+
+            <div class="portfolio_area_left wow fadeInLeft animated"><a href="#" target="_blank"><img src="{{ url_for('static', filename='images/fbahunt-login_880.jpg') }}" alt="FBA Hunt front page" /></a></div>
+
+            <div class="portfolio_area_right wow fadeInRight animated">
+
+                <h4 id="project_h4">A tool for Amazon Market sellers</h4>
+                <p>Designed for Amazon Marketplace sellers, FBAHunt is a web-app that searches and presents the products
+                    with the most potential to be profitable on Amazon. Users query items that they considered to sell and FBAHunt
+                will locate the best selling products for that category.</p>
+
+                <!--<ul class="small_social_links">
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul>-->
+
+                <div class="project_details">
+                    <h5 id="project_h5">Project Details</h5>
+                    <span><strong>Date</strong> <em>31 May 2016</em></span>
+                    <span><strong>Tools</strong> <em><a href="#">Web</a> <a href="#">Python</a> <a href="#">Flask</a> <a href="#">HTML5</a>
+                        <a href="#">CSS3</a> <a href="#">JavaScript</a> <a href="#">jQuery</a> </em></span>
+                    <!--<span><strong>Author</strong> <em>E. Cudjoe</em></span>-->
+                    <div class="clearfix margin_top5"></div>
+
+                    <a href="http://fbahunt.com" target="_blank"><button class="btn btn-primary"><i class="fa fa-hand-o-right fa-lg"></i> Visit Site</button></a>
+                </div>
+
+            </div>
+
+        </div><!-- end section -->
+
+    </div>
+</div>
+
+</section>
+<div class="clearfix margin_top7"></div>
+{% endblock %}

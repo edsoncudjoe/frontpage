@@ -1,0 +1,16 @@
+
+You have been contacted by:
+
+Name: {{ user }}
+
+Email: {{ addr }}
+
+Message: {{ msg }}
+
+
+
+
+Please reply promptly
+
+
+edsoncudjoe.com

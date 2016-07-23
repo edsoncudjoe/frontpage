@@ -1,0 +1,269 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Edson Cudjoe | Home
+{% endblock %}
+
+{% block navmenu %}
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	                  <ul class="nav navbar-nav navbar-right">
+	                    <li><a href="{{ url_for('main.index') }}#HOME">Home</a></li>
+	                    <li><a href="{{ url_for('main.index') }}#SERVICE">Services</a></li>
+	                    <li><a href="{{ url_for('main.index') }}#ABOUT">About</a></li>
+	                    <!--<li><a href="#TESTIMONIAL">Testimonial</a></li>-->
+	                    <li><a href="{{ url_for('main.index') }}#WORK">Work</a></li>
+	                    <li><a href="{{ url_for('main.index') }}#CONTACT">Contact</a></li>
+	                  </ul>
+	                </div><!-- /.navbar-collapse -->
+
+{% endblock %}
+
+{% block header %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="home_text wow fadeInUp animated">
+                    <h2>edson cudjoe</h2>
+                    <p>I build websites, applications and automation tools.</p>
+                    <!--<img src="images/shape.png" alt="">-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="scroll_down">
+                <a href="#SERVICE"><img src="{{ url_for('static', filename='images/scroll.png') }}" alt="scroll down"></a>
+                    <h4>Scroll Down</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block content %}
+        <section class="services" id="SERVICE">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="1s">
+                        <i class="fa fa-pencil"></i>
+                        <h2>Full Stack Web Development</h2>
+                        <p>I provide a number of web development services ranging from backend
+                        maintenance to complete website development. <br/>You may need a code bug
+                        to be fixed or a small automation tool created. I am also
+                        happy to discuss these requirements further with you.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="2s">
+                        <i class="fa fa-cogs"></i>
+                        <h2>Website Server Management</h2>
+                        <p>There are many factors to consider for your website including how to
+                        keep the site secure from unsavoury individuals and how to keep it relevant.
+                        I provide services that will manage these for you including
+                            domain management, web hosting, security and SEO services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section class="about_us_area" id="ABOUT">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="about_title">
+                        <h2>About Me</h2>
+                        <!--<img src="images/shape.png" alt="">-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 wow fadeInRight animated">
+                    <div class="profile-pic"><img src="{{ url_for('static', filename='images/e.cudjoe_2016.jpg') }}" alt="Edson Cudjoe" /></div>
+                </div>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">
+                        Developer, traveller, entrepreneur
+                        <br />
+                        I am an individual who is driven by discovering solutions to time consuming problems.
+                        I am currently applying my skills in the broadcast post production industry where I am able to manage the support of the video and IT systems we have and develop interesting software tools for various purposes.
+                        <br />
+                        My main passion is helping businesses thrive and using the best tools to achieve that outcome.
+                        You are here because you were curious about what I can do for you.
+                        <br />
+                        I can take your web design and build it into a fully working web site
+                        <br />
+                    </p>
+                    <!--<p class="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed quia non numquam eius modi tempora.</p>-->
+                </div>
+                <div class="col-md-4  wow fadeInRight animated">
+                    <p class="about_us_p">
+                        Do you have an idea of a online service that you want to bring more business to your company?
+                        Let me develop that into a real working web-app for you.
+                        <br /><br />
+                        Do you find yourself doing time-consuming tasks on a regular basis? Let me devise a solution for you.
+                        <br /><br />
+                        I'd love to hear more about your business and discuss what can be done for you.
+                        <br /><br />
+                        Feel free to ask me anything
+                        <br /><br />
+                    </p>
+                    <!--
+                    <p class="about_us_p">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>-->
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="work_area" id="WORK">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="work_title  wow fadeInUp animated">
+                    <h1>Latest Work</h1>
+                    <!--<img src="images/shape.png" alt="">-->
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-2 no_padding wow fadeInLeft animated">
+                <div class="single_image">
+                    <img src="{{ url_for('static', filename='images/cdv-qs2-front-thum2.jpg') }}" alt="QuickSearch">
+                    <div class="image_overlay">
+                        <a href="{{ url_for('work.cdvqs') }}">View Full Project</a>
+                        <h2>CatDV QuickSearch</h2>
+                        <h4>Desktop application</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding wow fadeInRight animated">
+                <div class="single_image">
+                    <img src="{{ url_for('static', filename='images/fbahunt-login-thumb-453.jpg') }}" alt="FBAHunt">
+                    <div class="image_overlay">
+                        <a href="{{ url_for('work.fbahunt') }}">View Full Project</a>
+                        <h2>FBAHunt</h2>
+                        <h4>Web application for Amazon marketplace businesses</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pad_top">
+            <div class="col-md-4 col-md-offset-2 no_padding wow fadeInLeft animated">
+                <div class="single_image">
+                    <img src="{{ url_for('static', filename='images/cleanium_thumb_453.jpg') }}" alt="Cleanium">
+                    <div class="image_overlay">
+                        <a href="{{ url_for('work.cleanium') }}">View Full Project</a>
+                        <h2>Cleanium</h2>
+                        <h4>UK based cleaning company</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding wow fadeInRight animated">
+                <div class="single_image">
+                    <img src="{{ url_for('static', filename='images/y2m-front-thumb.jpg') }}" alt="Y2M">
+                    <div class="image_overlay">
+                        <a href="{{ url_for('work.y2m') }}">View Full Project</a>
+                        <h2>Y2M</h2>
+                        <h4>Desktop web video downloader</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="cta">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 wow fadeInLeft animated">
+                        <div class="left">
+                            <h2>Have something in mind?</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 wow fadeInRight animated">
+                        <div class="baton">
+                            <a href="#CONTACT">
+                                <button type="button" class="btn btn-primary cs-btn">Hire me</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="CONTACT">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="contact_title  wow fadeInUp animated">
+                            <h1>get in touch</h1>
+                            <!--<img src="images/shape.png" alt="">-->
+                            <p>You may feel that your site needs a revamp or it may just be an idea that you've always wondered if it could be possible.
+                                I can guide you through the steps to make it a reality. Get in touch with me now to discuss your project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3  wow fadeInLeft animated">
+                        <div class="single_contact_info">
+                            <h2>Call Me</h2>
+                            <p><a href="tel:+447962454540">+447962 45 45 40</a></p>
+                        </div>
+                        <div class="single_contact_info">
+                            <h2>Email Me</h2>
+                            <p>mail@edsoncudjoe.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-9  wow fadeInRight animated">
+                        <form class="contact-form" id="contact-form" action="" onsubmit="return vf();" method="post">
+                            {{ form.hidden_tag() }}
+                            <div class="row">
+                                <div class="col-md-6">
+                                    {{ form.name(placeholder='Name', class='form-control') }}
+                                    {{ form.email(placeholder='Email', class='form-control') }}
+                                    {{ form.subject(placeholder='Subject', class='form-control') }}
+
+                                    <!--<input type="text" class="form-control" id="name" placeholder="Name">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">-->
+                                </div>
+                                <div class="col-md-6">
+                                     {{ form.message(placeholder='Message', class='form-control') }}
+                                    <!--<textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Message Texts..."></textarea>-->
+                                    <button type="submit" class="btn btn-default submit-btn form_submit">SEND MESSAGE</button>
+                                </div>
+                            </div>
+                            <div class="row col-md-12" id="form-error"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="work-with   wow fadeInUp animated">
+                            {% with messages = get_flashed_messages() %}
+                                {% if messages %}
+                                    <ul class="flashes">
+                                    {% for message in messages %}
+                                    <li><h3>{{ message }}</h3></li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                            {% endwith %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+{% endblock %}
