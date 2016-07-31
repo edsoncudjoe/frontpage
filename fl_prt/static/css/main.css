@@ -20,7 +20,7 @@ p.about_us_p {
 }
 div.profile-pic img {
     // background: url("images/demo-profile.png");
-    border: 1px solid #f73b56;
+    border: 1px solid #00b22d;
     height: 230px;
     width: 230px;
     border-radius: 230px;
@@ -160,7 +160,7 @@ div#form-error {
 }
 button#sendbtc.btn.btn-default {
     color: #fff;
-    background-color: #f73b56;
+    background-color: #00b22d;
 }
 @media screen and (min-width:480px) and (max-width: 767px) {
     div.portfolio_area_left {

@@ -1,0 +1,11 @@
+Flask==0.10.1
+
+#Application server
+gunicorn==19.4.5
+
+#Forms
+Flask-WTF==0.9.5
+WTForms-Components==0.9.7
+
+#Extensions
+Flask-Mail==0.9.1
